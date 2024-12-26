@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Dec 25 21:57:52 2024
+# Process ID: 10080
+# Current directory: C:/Users/Admin/Desktop/Car_park
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11644 C:\Users\Admin\Desktop\Car_park\Car_park.xpr
+# Log file: C:/Users/Admin/Desktop/Car_park/vivado.log
+# Journal file: C:/Users/Admin/Desktop/Car_park\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Admin/Desktop/Car_park/Car_park.xpr
+file mkdir C:/Users/Admin/Desktop/Car_park/Car_park.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Admin/Desktop/Car_park/Car_park.srcs/sim_1/new/Car_Park_Tb.vhd w ]
+add_files -fileset sim_1 C:/Users/Admin/Desktop/Car_park/Car_park.srcs/sim_1/new/Car_Park_Tb.vhd
